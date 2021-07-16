@@ -2,6 +2,10 @@
 ```
 vue add vuetify
 ```
+# vue router
+```
+vue add router
+```
 
 ## Project setup
 ```
