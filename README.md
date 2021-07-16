@@ -1,4 +1,7 @@
 # vuetify-with-ben
+```
+vue add vuetify
+```
 
 ## Project setup
 ```
