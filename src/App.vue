@@ -14,9 +14,9 @@
       </v-btn>
     </v-app-bar>
     <!-- Login -->
-    <v-content>
+    <v-main>
       <router-view></router-view>
-    </v-content>
+    </v-main>
     <v-footer
       color="primary lighten-1"
       padless
@@ -68,6 +68,10 @@ export default {
       {
         label: 'Dashboard',
         url: '/dashboard'
+      },
+      {
+        label: 'Employee',
+        url: '/employee'
       }
     ]
   })

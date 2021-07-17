@@ -21,6 +21,11 @@ const routes = [
     component: () => import('@/views/Dashboard')
   },
   {
+    path: '/employee',
+    name: 'employee',
+    component: () => import('@/views/DashboardEmployee')
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
