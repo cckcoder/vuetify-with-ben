@@ -15,7 +15,7 @@
     </v-app-bar>
     <!-- Login -->
     <v-content>
-    <router-view></router-view>
+      <router-view></router-view>
     </v-content>
     <v-footer
       color="primary lighten-1"
@@ -64,6 +64,10 @@ export default {
       {
         label: 'Login',
         url: '/login'
+      },
+      {
+        label: 'Dashboard',
+        url: '/dashboard'
       }
     ]
   })
